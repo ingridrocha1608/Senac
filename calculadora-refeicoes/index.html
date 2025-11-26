@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Refeições</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora de Refeições</h1>
+    </header>
+    <main>
+        <section class="controle">
+            <p>Selecione um item do cardápio, escolha a quantidade (1 – 9) e clique em <strong>Adicionar ao
+                    pedido</strong></p>
+            <div class="form">
+                <label for="alimento">Alimento</label>
+                <select id="alimento">
+                    <option value="">Escolha um alimento</option>
+                    <option value="pizza">Pizza — R$ 28.00</option>
+                    <option value="salada">Salada — R$ 12.50</option>
+                    <option value="hamburguer">Hambúrguer — R$ 18.00</option>
+                    <option value="suco">Suco — R$ 6.50</option>
+                    <option value="sobremesa">Sobremesa — R$ 9.00</option>
+                </select>
+                <label for="quantidade">Quantidade</label>
+                <input id="quantidade" type="number" min="1" max="9" value="1">
+                <button id="adicionar">Adicionar ao pedido</button>
+                <div class="erro" id="erro" aria-live="polite"></div>
+            </div>
+        </section>
+        <section id="pedido">
+            <h2>Seu pedido</h2>
+            <ul id="lista-pedido" aria-live="polite"></ul>
+            <div id="total-geral">Total: R$ 0.00</div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Ingrid Lima Rocha - 24/11/2025</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
