@@ -1,0 +1,118 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #a6c8ff, #d7e3fc);
+  color: #0d1b2a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+/* ===== TÍTULO ===== */
+h1 {
+  color: #0d1b2a;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2rem;
+}
+
+/* ===== RÓTULOS E ENTRADAS ===== */
+label {
+  font-weight: 600;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.2s;
+}
+
+/* Destaque quando o usuário clica no campo */
+input:focus,
+select:focus {
+  border-color: #1b6ca8;
+  box-shadow: 0 0 5px #1b6ca8;
+}
+
+/* ===== BOTÃO ===== */
+button {
+  background-color: #1b6ca8;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #155d84;
+  transform: scale(1.05);
+}
+
+/* ===== RESULTADO ===== */
+#resultado {
+  margin-top: 25px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #1b263b;
+  background-color: #ffffffcc;
+  padding: 15px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 350px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* Animação para quando o resultado aparece */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== RODAPÉ ===== */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #0d1b2a;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  input,
+  select {
+    max-width: 90%;
+  }
+
+  #resultado {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}

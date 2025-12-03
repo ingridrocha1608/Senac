@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #a6c8ff, #d7e3fc);
+  color: #0d1b2a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  text-align: center;
+  color: #0d1b2a;
+  margin-bottom: 20px;
+}
+
+.container {
+  background-color: #ffffffcc;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+#frases {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #1b263b;
+}
+
+button {
+  background-color: #1b6ca8;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #155d84;
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #0d1b2a;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  #frases {
+    font-size: 1rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}

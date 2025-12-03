@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Metas</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Painel de Metas Diárias</h1>
+    </header>
+
+    <main>
+        <section>
+            <form id="formMeta">
+                <label for="titulo">Título da Meta:</label>
+                <input id="titulo" type="text" placeholder="Digite o nome da meta">
+
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" placeholder="Descreva sua meta"></textarea>
+
+                <label for="prioridade">Prioridade:</label>
+                <select id="prioridade">
+                    <option value="">Selecione</option>
+                    <option value="baixa">Baixa</option>
+                    <option value="media">Média</option>
+                    <option value="alta">Alta</option>
+                </select>
+
+                <label for="dataMeta">Data para realizar:</label>
+                <input id="dataMeta" type="date">
+
+                <button id="botaoAdicionar" type="submit">Adicionar Meta</button>
+            </form>
+
+            <div class="erro" id="erroGeral"></div>
+        </section>
+
+        <section id="lista">
+            <ul id="listaMetas"></ul>
+        </section>
+
+        <footer>
+            <p>&copy; Lívia Campos - 14/11/2025</p>
+        </footer>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

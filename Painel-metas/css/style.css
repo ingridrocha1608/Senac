@@ -1,0 +1,57 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #eef1f5;
+}
+
+header {
+  background-color: cadetblue;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  padding: 30px;
+}
+
+form {
+  background: #ffffff;
+  width: 380px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+form button {
+  background-color: darkcyan;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+}
+.concluida {
+    text-decoration: line-through;
+    opacity: 0.7;
+    transition: 0.3s ease;
+}
+.concluida .meta-titulo,.concluida .meta-descricao,.concluida .meta-info {
+    text-decoration: line-through;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 5px;
+  font-size: 14px;
+}

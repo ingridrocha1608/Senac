@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Descontos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Calculadora de Descontos</h1>
+
+  <label for="valor">Valor do produto:</label>
+  <input type="number" id="valor" placeholder="Digite o valor">
+
+  <br><br>
+
+  <label for="formaPagamento">Forma de pagamento:</label>
+  <select id="formaPagamento">
+    <option value="avista">À vista (dinheiro ou pix) - 10% de desconto</option>
+    <option value="credito">Cartão de crédito - acréscimo de 5%</option>
+    <option value="2x">Parcelado em 2x - sem desconto</option>
+    <option value="3xoumais">Parcelado em 3x ou mais - acréscimo de 10%</option>
+  </select>
+
+  <br><br>
+
+  <button id="calcular">Calcular valor final</button>
+
+  <div id="resultado"></div>
+  <footer>&copy; Lívia Campos - 12/11</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
