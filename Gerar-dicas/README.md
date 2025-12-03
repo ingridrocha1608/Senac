@@ -16,7 +16,7 @@ Um site criado para inspirar, motivar e oferecer pequenos conselhos aleatórios 
 2. Extraia a pasta
 3. Abra o arquivo index.html no navegador
 
-# Acesse o projeto online: 
+# Acesse o projeto: 
  https://ingridrocha1608.github.io/Gerar-dicas/
 
 ## Como clonar o projeto
