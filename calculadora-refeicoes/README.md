@@ -17,7 +17,6 @@ Exibição de mensagens de erro quando necessário
 Pequena animação visual ao adicionar itens (ex.: fade/scale)
 
 # Estrutura do Projeto
-calculadora-refeicoes/
 
 │── index.html
 │── style.css
@@ -29,14 +28,6 @@ index.html → Estrutura da página
 style.css → Estilização visual
 
 script.js → Lógica da calculadora
-
-# Tecnologias Utilizadas
-
-HTML5
-
-CSS3
-
-JavaScript
 
 # Como usar
 
@@ -53,8 +44,6 @@ Veja o total sendo atualizado automaticamente.
 # Objetivo Educacional
 
 Este projeto foi desenvolvido para praticar:
-
-Manipulação do DOM
 
 Eventos em JavaScript
 
