@@ -1,54 +1,34 @@
- # *Calculadora de Refeições*
+# 🍽️ Calculadora de Refeições
 
-A Calculadora de Refeições é uma aplicação simples desenvolvida em HTML, CSS e JavaScript que permite ao usuário montar uma refeição escolhendo itens do cardápio e suas quantidades. O sistema calcula automaticamente o valor total do pedido, garantindo uma experiência prática e intuitiva.
+A Calculadora de Refeições é um site criado para facilitar a escolha e montagem de refeições. O usuário seleciona os itens desejados, e o sistema realiza automaticamente o cálculo do valor total, exibindo o resultado de forma clara e objetiva. O projeto foi desenvolvido com foco na praticidade e na boa experiência do usuário, permitindo um processo simples, leve e eficiente para visualizar o preço final da refeição escolhida.
 
-# Funcionalidades
+## Funcionalidades do Projeto
 
-Seleção de itens do cardápio
+- Permite ao cliente selecionar os itens da refeição desejada por meio de opções simples e organizadas.
+- Soma automaticamente o valor total com base nos produtos escolhidos.
+- Exibe o resultado de forma clara e imediata, facilitando a visualização do preço final.
+- Interface intuitiva e fácil de usar, pensada para ser prática em qualquer dispositivo.
+- Projeto leve, rápido e totalmente funcional.
 
-Definição da quantidade por item
+## Tecnologias Utilizadas
+- HTML
+- CSS
+- JavaScript 
+- GitHub
+- VS Code
 
-Cálculo automático do total
+## Como rodar o projeto
+1. Baixe o repositório (Clique no Botão "Code">Download ZIP)
+2. Extraia a pasta
+3. Abra o arquivo index.html no navegador
 
-Prevenção de erros (ex.: quantidade inválida ou item não selecionado)
+## Acesse o projeto online: 
+https://ingridrocha1608.github.io/senac/calculadora-refeicoes/
 
-Exibição de mensagens de erro quando necessário
+## Como clonar o projeto
+ No terminal do VS Code digite:
+git clone https://ingridrocha1608.github.io/senac/calculadora-refeicoes/
+No GitHub Desktop:
+  No menu: File(Arquivo)>Clone o repositor(Clonar repositório)>Selecione a aba URL, no campo URL, cole o link do repositório
 
-Pequena animação visual ao adicionar itens (ex.: fade/scale)
-
-# Estrutura do Projeto
-
-│── index.html
-│── style.css
-└── script.js
-
-
-index.html → Estrutura da página
-
-style.css → Estilização visual
-
-script.js → Lógica da calculadora
-
-# Como usar
-
-Abra o arquivo index.html em qualquer navegador.
-
-Escolha um item do cardápio.
-
-Selecione a quantidade.
-
-Clique em Adicionar.
-
-Veja o total sendo atualizado automaticamente.
-
-# Objetivo Educacional
-
-Este projeto foi desenvolvido para praticar:
-
-Eventos em JavaScript
-
-Estruturação de projetos web
-
-Boas práticas de HTML, CSS e JS
-
-Validações e interações dinâmicas no front-end
+## Desenvolvido por Ingrid Lima Rocha
